@@ -3,7 +3,7 @@ The project presents a simple window application with an interface for customer 
 
 Technologies used in the project: C#, .NET, MySQL.
 
-Features of project: adding a customer, editing customer's data, deleting customer, listing customers.
+Features of the project: adding a customer, editing customer's data, deleting customer, listing customers.
 
 ![Welcome Page](https://github.com/karoldziadkowiec/CustomersDatabase/blob/master/photos/1.png)
 
