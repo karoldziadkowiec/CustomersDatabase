@@ -113,8 +113,8 @@ namespace CustomersDatabase
                     }
 
                     conn.Close();
-                    DeletingPage deletingpage = new DeletingPage();
-                    deletingpage.Show();
+                    ListingPage listingPage = new ListingPage();
+                    listingPage.Show();
                     this.Hide();
                 }
             }

@@ -116,8 +116,8 @@ namespace CustomersDatabase
 
                     MessageBox.Show("Coustomer successfully registered.", "CustomersDatabase");
                     conn.Close();
-                    AddingPage addingpage = new AddingPage();
-                    addingpage.Show();
+                    ListingPage listingPage = new ListingPage();
+                    listingPage.Show();
                     this.Hide();
                 }
             }

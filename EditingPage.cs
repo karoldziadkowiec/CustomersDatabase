@@ -73,6 +73,7 @@ namespace CustomersDatabase
             String phone = textBox3.Text;
             String address = textBox4.Text;
             String birthday = dateTimePicker1.Text;
+
             if (name.Length == 0 || surname.Length == 0 || phone.Length == 0 || address.Length == 0 || birthday.Length == 0)
             {
                 MessageBox.Show("Complete the empty fields.", "CustomersDatabase");
@@ -83,6 +84,7 @@ namespace CustomersDatabase
                 MessageBox.Show("The phone number must contain 9 characters.", "CustomersDatabase");
                 return;
             }
+
             try
             {
                 conn.Open();
