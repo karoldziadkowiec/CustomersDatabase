@@ -54,5 +54,10 @@ namespace CustomersDatabase
             listingpage.Show();
             this.Hide();
         }
+
+        private void MainPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,7 +29,6 @@ namespace CustomersDatabase
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
                 dataGridView1.DataSource = dt;
-
             }
             catch (Exception ex)
             {

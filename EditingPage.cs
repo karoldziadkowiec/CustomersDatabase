@@ -86,13 +86,13 @@ namespace CustomersDatabase
             try
             {
                 conn.Open();
-                string sqlQuery = "UPDATE customers SET name='" + textBox1.Text + "', surname='" + textBox2.Text + "', phone='" + textBox3.Text + "', address='" + textBox4.Text + "', birthday='" + dateTimePicker1.Text + "' WHERE id='" + id + "'";
+                string sqlQuery = "UPDATE customers SET name='" + name + "', surname='" + surname + "', phone='" + phone + "', address='" + address + "', birthday='" + birthday + "' WHERE id='" + id + "'";
                 MySqlCommand command = new MySqlCommand(sqlQuery, conn);
                 command.ExecuteNonQuery();
 
                 MessageBox.Show("User data updated successfully.", "CustomersDatabase");
-                EditingPage editingpage = new EditingPage();
-                editingpage.Show();
+                ListingPage listingpage = new ListingPage();
+                listingpage.Show();
                 this.Hide();
             }
             catch

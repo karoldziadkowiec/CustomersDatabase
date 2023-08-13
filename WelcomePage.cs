@@ -28,5 +28,10 @@ namespace CustomersDatabase
             mainpage.Show();
             this.Hide();
         }
+
+        private void WelcomePage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
